@@ -54,7 +54,7 @@ p {
 
 /* Ajustar el margen alrededor de la imagen */
 .navbar-brand img {
-    margin-left: 300px; /* Espacio entre la imagen y el texto */
+    margin-right: 300px; /* Espacio entre la imagen y el texto */
 }
 
 /* Opcional: Cambiar el tamaño de la barra de navegación */
