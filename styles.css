@@ -54,15 +54,20 @@ p {
 
 
 
-/* Opcional: Cambiar el tamaño de la barra de navegación */
-.navbar {
-    height: 70px; /* Ajusta la altura según tus necesidades */
+/* Asegurar que el logo se ajuste correctamente */
+.navbar-brand img {
+    max-height: 100%; /* Asegura que la imagen se ajuste a la altura de la barra de navegación */
+    max-width: 100px; /* Limitar la anchura para evitar desbordes en móviles */
 }
 
-/* Asegurar que la imagen no se estire */
-.navbar-brand img {
-    max-height: 100px; /* Asegura que la imagen se ajuste a la altura de la barra de navegación */
+/* Espacio adicional para el margen en móviles */
+@media (max-width: 767.98px) {
+    .navbar-brand {
+        margin-left: auto; /* Empuja el logo a la derecha */
+        margin-right: 20px; /* Añadae un margen a la derecha */
+    }
 }
+
 
 #caracteristicas {
     background-color: #af816e; 
