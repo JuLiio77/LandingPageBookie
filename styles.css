@@ -52,10 +52,7 @@ p {
     color: #000000; 
 }
 
-/* Ajustar el margen alrededor de la imagen */
-.navbar-brand img {
-    margin-right: 20px; /* Espacio entre la imagen y el texto */
-}
+
 
 /* Opcional: Cambiar el tamaño de la barra de navegación */
 .navbar {
