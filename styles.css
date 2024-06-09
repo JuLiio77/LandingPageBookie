@@ -1,5 +1,5 @@
 body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Arial', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 html {
@@ -36,38 +36,45 @@ p {
     margin-bottom: 1.5rem;
 }
 #parrafo {
-    font-size: 20px; /* Cambia el tamaño de la fuente según lo desees */
+    font-size: 20px;
 }
 
 
 .btn-custom {
     background-color: #FCA17D;
     border-color: #FCA17D;
-    color: #ffffff; /* Color del texto */
+    color: #ffffff; 
 }
 
 .btn-custom:hover {
     background-color: #ffffff;
     border-color: #FCA17D;
-    color: #000000; /* Color del texto */
+    color: #000000; 
 }
 
-.img-circulo {
-    width: 300px; /* ajusta el ancho según lo necesites */
-    height: 300px; /* ajusta la altura según lo necesites */
-    border-radius: 50%; /* hace que la imagen sea circular */
-    background-color: #fca17d; /* color de fondo del círculo */
-    display: inline-block; /* asegura que el círculo se ajuste al contenido */
-    overflow: hidden; /* oculta cualquier parte de la imagen que se extienda fuera del círculo */
+/* Ajustar el margen alrededor de la imagen */
+.navbar-brand img {
+    margin-left: 300px; /* Espacio entre la imagen y el texto */
+}
+
+/* Opcional: Cambiar el tamaño de la barra de navegación */
+.navbar {
+    height: 70px; /* Ajusta la altura según tus necesidades */
+}
+
+/* Asegurar que la imagen no se estire */
+.navbar-brand img {
+    max-height: 100px; /* Asegura que la imagen se ajuste a la altura de la barra de navegación */
 }
 
 #caracteristicas {
-    background-color: #5e5e5e; /* Cambia este color al que desees */
+    background-color: #af816e; 
 }
 
 #capturas {
-    background-color: #FCA17D; /* Cambia este color al que desees */
+    background-color: #af816e;
 }
+
 
 
 section {
@@ -83,7 +90,68 @@ section img {
     font-size: 1.2rem;
     padding: 0.75rem 1.5rem;
 }
+/* Estilo general para el footer */
+#footer-custom {
+    background-color: #7e5444; /* Fondo oscuro */
+    color: #ffffff; /* Texto blanco */
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
 
-footer {
-    font-size: 0.9rem;
+/* Encabezados en el footer */
+#footer-custom h4 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+/* Enlaces en el footer */
+#footer-custom a {
+    color: #fca17d; /* Color de los enlaces */
+    text-decoration: none; /* Sin subrayado */
+    margin: 0 10px; /* Espaciado entre enlaces */
+}
+
+#footer-custom a:hover {
+    text-decoration: underline; /* Subrayado en hover */
+}
+
+/* Lista de enlaces */
+#footer-custom .list-unstyled {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+/* Espacio entre enlaces */
+#footer-custom .list-unstyled li {
+    margin: 0.5rem 0; /* Espaciado vertical */
+}
+
+/* Iconos de redes sociales */
+#footer-custom .fab {
+    margin-right: 5px;
+}
+
+/* Línea de separación */
+#footer-custom hr {
+    border-top: 1px solid #ffffff; /* Color de la línea */
+    width: 80%; /* Ancho de la línea */
+    margin: 2rem auto; /* Centra la línea */
+}
+
+/* Responsividad */
+@media (max-width: 576px) {
+    #footer-custom h4 {
+        font-size: 1.3rem;
+    }
+
+    #footer-custom p {
+        font-size: 0.9rem; /* Tamaño de fuente más pequeño para móviles */
+    }
+
+    #footer-custom .list-unstyled li {
+        display: block;
+        margin: 0.5rem 0; /* Espaciado vertical para enlaces en móviles */
+    }
 }
