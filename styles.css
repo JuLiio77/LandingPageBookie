@@ -1,11 +1,11 @@
 body {
-    font-family: 'Arial', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 html {
     scroll-behavior: smooth;
-}
 
+}
 
 .navbar-brand {
     font-size: 1.8rem;
@@ -39,7 +39,6 @@ p {
     font-size: 20px;
 }
 
-
 .btn-custom {
     background-color: #FCA17D;
     border-color: #FCA17D;
@@ -52,22 +51,18 @@ p {
     color: #000000; 
 }
 
-
-
-/* Asegurar que el logo se ajuste correctamente */
 .navbar-brand img {
-    max-height: 100%; /* Asegura que la imagen se ajuste a la altura de la barra de navegación */
-    max-width: 100px; /* Limitar la anchura para evitar desbordes en móviles */
+    max-height: 100%; 
+    max-width: 100px; 
 }
 
-/* Espacio adicional para el margen en móviles */
+
 @media (max-width: 767.98px) {
     .navbar-brand {
-        margin-left: auto; /* Empuja el logo a la derecha */
-        margin-right: 20px; /* Añadae un margen a la derecha */
+        margin-left: auto; 
+        margin-right: 20px; 
     }
 }
-
 
 #caracteristicas {
     background-color: #af816e; 
@@ -77,8 +72,6 @@ p {
 #capturas {
     background-color: #af816e;
 }
-
-
 
 section {
     padding: 5rem 0;
@@ -93,68 +86,62 @@ section img {
     font-size: 1.2rem;
     padding: 0.75rem 1.5rem;
 }
-/* Estilo general para el footer */
+
 #footer-custom {
-    background-color: #7e5444; /* Fondo oscuro */
-    color: #ffffff; /* Texto blanco */
+    background-color: #7e5444;
+    color: #ffffff; 
     padding-top: 3rem;
     padding-bottom: 3rem;
 }
 
-/* Encabezados en el footer */
 #footer-custom h4 {
     margin-bottom: 1rem;
     font-size: 1.5rem;
     font-weight: bold;
 }
 
-/* Enlaces en el footer */
 #footer-custom a {
-    color: #fca17d; /* Color de los enlaces */
-    text-decoration: none; /* Sin subrayado */
-    margin: 0 10px; /* Espaciado entre enlaces */
+    color: #fca17d; 
+    text-decoration: none; 
+    margin: 0 10px; 
 }
 
 #footer-custom a:hover {
-    text-decoration: underline; /* Subrayado en hover */
+    text-decoration: underline; 
 }
 
-/* Lista de enlaces */
+
 #footer-custom .list-unstyled {
     padding: 0;
     list-style: none;
     text-align: center;
 }
 
-/* Espacio entre enlaces */
 #footer-custom .list-unstyled li {
-    margin: 0.5rem 0; /* Espaciado vertical */
+    margin: 0.5rem 0; 
 }
 
-/* Iconos de redes sociales */
 #footer-custom .fab {
     margin-right: 5px;
 }
 
-/* Línea de separación */
 #footer-custom hr {
-    border-top: 1px solid #ffffff; /* Color de la línea */
-    width: 80%; /* Ancho de la línea */
-    margin: 2rem auto; /* Centra la línea */
+    border-top: 2px solid #ffffff; 
+    width: 80%; 
+    margin: 2rem auto;
 }
 
-/* Responsividad */
 @media (max-width: 576px) {
     #footer-custom h4 {
         font-size: 1.3rem;
     }
 
     #footer-custom p {
-        font-size: 0.9rem; /* Tamaño de fuente más pequeño para móviles */
+        font-size: 0.9rem; 
     }
 
     #footer-custom .list-unstyled li {
         display: block;
-        margin: 0.5rem 0; /* Espaciado vertical para enlaces en móviles */
+        margin: 0.5rem 0; 
     }
 }
